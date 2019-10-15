@@ -15,4 +15,5 @@ AWS Client VPN was setup to connect to the private subnet EC2 instances. NACLs a
 
 
 Pre-requisites were installed before deploying the Ansible playbooks. App was deployed using Ansible and the Fat-Free Framework
-for PHP.
+for PHP. Terraform was used to deploy the EC2 instances. All networking components were done manually via AWS console 
+(these optional could have also done via Terraform).
